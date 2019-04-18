@@ -1,3 +1,21 @@
+body {
+    background-color: #232323;
+}
 h1 {
-    color: red;
+    color: #fff;
+}
+.square {
+    width: 30%;
+    background-color: blue;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+span {
+    color: #fff;
 }
