@@ -27,34 +27,6 @@ function reset() {
   messageDisplay.textContent = "";
   resetBtn.textContent = "New Colors";
 }
-// easyBtn.addEventListener('click', () => {
-//   easyBtn.classList.add('selected');
-//   hardBtn.classList.remove('selected');
-//   numOfSquares = 6;
-//   colors = generateRandomColors(numOfSquares);
-//   pickedColor = pickColor(); 
-//   colorDisplay.textContent = pickedColor;
-//   for(let i = 0; i < squares.length; i++) {
-//     if(colors[i]){
-//       squares[i].style.backgroundColor = colors[i];
-//     } else {
-//       squares[i].style.display = "none";
-//     }
-//   }
-// });
-
-// hardBtn.addEventListener('click', () => {
-//   easyBtn.classList.remove('selected');
-//   hardBtn.classList.add('selected');
-//   numOfSquares = 9;
-//   colors = generateRandomColors(numOfSquares);
-//   pickedColor = pickColor(); 
-//   colorDisplay.textContent = pickedColor;
-//   for(let i = 0; i < squares.length; i++) {
-//       squares[i].style.backgroundColor = colors[i];
-//       squares[i].style.display = "block";
-//   }
-// });
 
 let randomColor = () => {
   //pick a "red", "green" and "blue" from 0 - 255
@@ -113,12 +85,3 @@ let changeColors = (color) => {
   }
 }
 
-
-
-
-
-/*            Logic
-  Add click event
-  Grab the color of the clicked square
-  Compare its color with the pickedColor
-*/
